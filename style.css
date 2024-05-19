@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.cabecalho{
+    background-color: #e7f599;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+}
+
+.lista-menu{
+    display: flex;
+    gap:40px;
+       
+}
+li{
+    list-style: none;
+}
+
+.lista-menu li > a {
+    color: #aaa361;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.perfil{
+    background-color: #e4be55;
+    height: 500px ;
+    text-align: center;
+}
+
+h1{
+    color:#ac8416;
+    font-size: 36px;
+
+}
+
+.profissao{
+    color: #a58d4b;
+    font-size: 25px;
+}
+.descricao{
+    width: 594px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+img {
+   margin-top: 48px; 
+   margin-bottom: 26px;
+   width: 150px;
+  
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 86px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;   
+
+}
+.titulo-secao {
+    color: #481949;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.lista-secao {
+    padding-left: 32px;
+}
+.titulo-item {
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700;
+}
+
+.link-item {
+    color: #2F80ED;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.descricao-item {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 53px; 
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    background-color: #ddd79b;
+    height: 300px;
+}
+
+.lista-rodape li{
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-weight: 700;
+    gap: 14px;
+}
+
+.lista-rodape li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container-rodape {
+    margin-left: 30px;
+}
+
+.fa-linkedin {
+    color: #FFFFFF;
+}
